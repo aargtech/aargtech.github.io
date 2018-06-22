@@ -21,26 +21,28 @@ top-margin:0px
 }
 .HeadingWrap
 {
+	display: table-cell;
 	vertical-align:middle;
-
+width:4000px;
 
 
 }
 .Heading
 {
+	display: inline-block;
 	background-color:blue;
-  height:100px;
-    
+  height:65px;
+    width:4000px;
   text-align:center;
 vertical-align:middle;
   padding:0px;
 background-image:url('./images/AargtechBackground.jpg');
 background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 50%;
 }
 .Navigator
 {
-background-color:black;
+background-color:#3B3C36;
   margin:0px;
   padding:0px;
    height:50px;
@@ -125,7 +127,7 @@ height:40px;
 margin-top:5px;
 margin-bottom:0;
 opacity:0.8;
-background-image:url('./images/Backgr.jpg');
+
 }
 
 li
@@ -157,9 +159,10 @@ text-align:center;
 }
 
 .ArgTechLogo {
-    opacity: 0.8;
+    opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-    float:right;
+    float:left;
+	top-margin:20px;
 }
 
 .sliderbox 
@@ -177,9 +180,9 @@ text-align:center;
 .sliderbox1 
 {
     position:relative;
-    width:5000px;
+    width:3750px;
     animation-name:slideranimation1;
-    animation-duration:80s;
+    animation-duration:30s;
     animation-iteration-count:infinite;
 
 
@@ -303,11 +306,11 @@ text-align:center;
     left:-1400px;
     }
     50% {
-    left:-2500px;
+    left:-1400px;
 
     }
     70% {
-    left:-2500px;
+    left:-1400px;
     }
     75% {
     left:-400px;
